@@ -1,5 +1,5 @@
 ---
-- hosts: csr01
+- hosts: all
   gather_facts: false
   tasks:
     - name: Include vars
